@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 def send_notification(msg):
     # YOUR DETAILS
-    phone = "+918500913198" 
+    phone = "+91 8500913198" 
     apikey = "XXXXXX" # Put your REAL apikey here from WhatsApp
     
     url = f"https://api.callmebot.com/whatsapp.php?phone={phone}&text={msg}&apikey={apikey}"
